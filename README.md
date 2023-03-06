@@ -1,7 +1,9 @@
 # Prueba_de_Nivel1
 
 ## Nota:
-Mi repositorio es: 
+Mi repositorio es: https://github.com/JorgeCadrecha/Prueba_de_Nivel1.git
+
+No sabía muy bien cómo unir las clases para crear un doble hash, de manera que al imprimirlo en pantalla, en la primera tabla hash cada posición contenga todas las palabras que comiencen por la misma letra, y dentro de cada una de esas posiciones, haya otra tabla hash con las letras ordenadas alfabéticamente pero solamente de cada de una letra, produciendose que por cada posición solo pueda haber palabras que empizen por A, en la segunda por B, etc.
 
 ##Enunciado
 el DLE (Diccionario de la Real Academia EspaÑola ( https://www.rae.es/obras-academicas/diccionarios/diccionario-de-la-lengua-espanola ) tiene 93 000 palabras, si utilizaremos una lista enlazada para almacenar todas las palabras y luego si tenemos que buscar una palabra en dicha estructura el costo es del orden de O(n), es decir 93 000, pero si en su lugar utilizamos una tabla hash encadenada de 28 posiciones (una para cada letra del abecedario) y supongamos que la cantidad de palabras que empieza con cada letra es aproximadamente similar (más allá que no lo sea) el costo de buscar una palabra en este caso es del orden de O(1+a), esto es igual a (1 + 93 000/28) aproximadamente 3 322, lo cual implica una diferencia significativa respecto a la eficiencia de ambas estructuras.
