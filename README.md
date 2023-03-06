@@ -3,6 +3,8 @@
 ## Nota:
 Mi repositorio es: https://github.com/JorgeCadrecha/Prueba_de_Nivel1.git
 
+El arcchivo es un zip, dentro de otro zip porque no me dejaba subirlo a github.
+
 No sabía muy bien cómo unir las clases para crear un doble hash, de manera que al imprimirlo en pantalla, en la primera tabla hash cada posición contenga todas las palabras que comiencen por la misma letra, y dentro de cada una de esas posiciones, haya otra tabla hash con las letras ordenadas alfabéticamente pero solamente de cada de una letra, produciendose que por cada posición solo pueda haber palabras que empizen por A, en la segunda por B, etc.
 
 ##Enunciado
